@@ -1,0 +1,27 @@
+{
+  "name": "intervuecfg",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@iconify-json/ph": "^1.2.1",
+    "@nuxt/devtools": "latest",
+    "@nuxt/fonts": "^0.10.0",
+    "@nuxt/icon": "^1.5.6",
+    "@nuxt/ui": "^2.18.7",
+    "@pinia/nuxt": "^0.5.5",
+    "nuxt": "^3.13.2"
+  },
+  "dependencies": {
+    "@vuelidate/core": "^2.0.3",
+    "@vuelidate/validators": "^2.0.4",
+    "date-fns": "^4.1.0",
+    "v-calendar": "^3.1.2"
+  }
+}
